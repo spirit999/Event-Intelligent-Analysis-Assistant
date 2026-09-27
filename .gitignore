@@ -1,13 +1,18 @@
-# 模型权重
-save_models/
+# 模型权重（保留目录，忽略内容）
+save_models/*
+!save_models/.gitkeep
 
-# 数据与推理产物
-data/
-result/
-base_dataset/
+# 数据与推理产物（保留目录，忽略内容）
+data/*
+!data/.gitkeep
+result/*
+!result/.gitkeep
+base_dataset/*
+!base_dataset/.gitkeep
 
-# 运行日志
-log/
+# 运行日志（保留目录，忽略内容）
+log/*
+!log/.gitkeep
 
 # Python 缓存
 __pycache__/
