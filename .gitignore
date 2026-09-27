@@ -1,0 +1,23 @@
+# 模型权重
+save_models/
+
+# 数据与推理产物
+data/
+result/
+base_dataset/
+
+# 运行日志
+log/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 编辑器配置
+.vscode/
+
+# Web UI 截图
+web.png
+
+# 不上传的脚本
+code/infer.py
